@@ -2,7 +2,7 @@ import glob
 import pandas as pd
 import os
 
-path="..\..\data\raw\"
+path= "..\..\data\\raw\\"
 all_filenames=glob.glob(os.path.join(path,"*.csv"))
 all_filenames.sort()
 all_df=[]
