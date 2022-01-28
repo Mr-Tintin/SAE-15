@@ -1,11 +1,11 @@
- 
+ import statistics
 
 def ComputeMean():
-    mean = 0
+    mean = statistics.mean()
     return (mean)
 
-def ComputeMedian:
-    median = 0
-    return (median)    
+def ComputeMedian():
+    median = statistics.median()
+    return (median)  
     
     
